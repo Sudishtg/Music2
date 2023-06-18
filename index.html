@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Music Player</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="content">
+                <div class="heading"><h1>Music Player</h1></div>
+                <div class="poster"><img class="imgPoster" src="Music.jpg"></div>
+                <div class="slider"><input class="slide" type="range" value="0"></div>
+                <ul>
+                    <div class="song">
+                       <li><div class="item">
+                             <button class="No songbutton" id="songNo1">No Lie</button>
+                             <button class="add" id="No1">Next</button>
+                            </div>
+                        </li>
+                    </div>
+                    <div class="song">
+                        <li><div class="item">
+                              <button class="The songbutton" id="songNo2">The Nights</button>
+                              <button class="add" id="No2">Next</button>
+                             </div>
+                         </li>
+                     </div>
+                     <div class="song">
+                        <li><div class="item">
+                              <button class="One songbutton" id="songNo3">One kiss</button>
+                              <button class="add" id="No3">Next</button>
+                             </div>
+                         </li>
+                     </div>
+                </ul>
+                <div class="play">
+                    <div class="forward"><button class="fb">&#8594;</button></div>
+                    <div class="plus"><button class="volume">+</button></div>
+                    <img src="pause.png" alt="pause" class="image image1">
+                    <div class="minus"><button class="volume">-</button></div>
+                    <div class="loop"><button class="lb">&#9633;</button></div>
+                    <div class="backward"><button class="bb">&#8592;</button></div>
+                </div>
+            </div>
+           
+        </div>
+        <script src="script.js" charset="UTF-8"></script>
+    </body>
+</html>
